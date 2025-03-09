@@ -38,7 +38,7 @@ export const ProjectDetails = [
 			"GeminiAPI",
 			"Render",
 		],
-		imageUrl: "https://i.ibb.co/7zvZjGv/xpensetrack.png",
+		imageUrl: "https://github.com/Abhi-2765/MyPortfolio/blob/main/public/accessAI.png",
 		projectLink: "https://accessai-r6or.onrender.com/",
 		repoLink: "https://github.com/RushiVivek/AccessAI-AG33",
 	},
