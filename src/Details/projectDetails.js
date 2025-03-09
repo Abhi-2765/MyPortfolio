@@ -16,7 +16,7 @@ export const ProjectDetails = [
 			"Postman",
 			"Render",
 		],
-		imageUrl: "https://i.ibb.co/7zvZjGv/xpensetrack.png",
+		imageUrl: "https://github.com/Abhi-2765/MyPortfolio/blob/main/public/xpenseTrack.png",
 		projectLink: "https://xpensetrack.onrender.com/",
 		repoLink: "https://github.com/Abhi-2765/XpenseTrack",
 	},
