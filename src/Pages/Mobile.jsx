@@ -16,9 +16,9 @@ const Mobile = () => {
       <section className="flex items-center justify-center">
         <About />
       </section>
-      <section className="flex items-center justify-center">
+      {/* <section className="flex items-center justify-center">
         <Experience />
-      </section>
+      </section> */}
       <section className="flex items-center justify-center">
         <Education/>
       </section>

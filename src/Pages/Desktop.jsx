@@ -20,9 +20,9 @@ const Desktop = () => {
         <section id="about">
           <About />
         </section>
-        <section id="experience">
+        {/* <section id="experience">
           <Experience />
-        </section>
+        </section> */}
         <section id="education">
           <Education/>
         </section>
