@@ -14,14 +14,22 @@ const Hero = () => {
       </div>
 
       <div>
+        <a 
+          href="https://drive.google.com/file/d/1hHA5M_peAuccWuwrbPtlh2nS9YNFGdEC/view" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="mt-4 inline-block px-6 py-3 border-2 border-[#64ffda] text-[#64ffda] font-medium text-sm leading-tight rounded hover:bg-[#64ffda] hover:bg-opacity-10 hover:text-black focus:outline-none focus:ring-2 focus:ring-[#64ffda] transition duration-300 ease-in-out"
+        >
+          My Resume
+        </a>
       </div>
       
       {/* Social Links */}
       <div className="flex space-x-6 mt-6">
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/Abhi-2765" target="_blank" rel="noopener noreferrer">
           <Github/>
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/saiabhiramavarmabuddaraju/" target="_blank" rel="noopener noreferrer">
           <Linkedin/>
         </a>
         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">

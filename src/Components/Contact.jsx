@@ -30,7 +30,7 @@ const Contact = () => {
         initial={{ opacity: 0, x: -10 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.4, ease: "easeOut", delay: 0.1 }}
-        className="font-poppins font-bold text-2xl text-white mb-4 border-b border-gray-600 pb-2 text-left"
+        className="font-poppins font-bold text-2xl text-[#64ffda] mb-4 border-b border-gray-600 pb-2 text-left"
       >
         Contact Me
       </motion.h2>

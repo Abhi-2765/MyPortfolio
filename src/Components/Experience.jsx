@@ -1,4 +1,5 @@
 import ExperienceCard from "./ExperienceCard";
+import { experienceDetails } from "../Details/experienceDetails";
 
 const Experience = () => {
   return (
@@ -12,7 +13,17 @@ const Experience = () => {
 
       {/* Content section with enough padding to prevent jumpiness */}
       <div className="mt-4 flex flex-col gap-6">
-        <ExperienceCard />
+        {experienceDetails.map((job, index) => (
+          <ExperienceCard
+            key={index}
+            role={job.role}
+            company={job.company}
+            start={job.start}
+            end={job.end}
+            description={job.description}
+            tools={job.tools}
+          />
+        ))}
       </div>
 
       <div className="h-1 bg-[#64ffda] mt-6 w-16 mx-auto"></div>

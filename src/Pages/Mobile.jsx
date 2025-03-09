@@ -5,6 +5,7 @@ import Experience from "../Components/Experience";
 import Projects from "../Components/Projects";
 import Skills from "../Components/Skills";
 import Programming from "../Components/Programming";
+import Education from "../Components/Education";
 
 const Mobile = () => {
   return (
@@ -17,6 +18,9 @@ const Mobile = () => {
       </section>
       <section className="h-screen flex items-center justify-center">
         <Experience />
+      </section>
+      <section className="h-screen flex items-center justify-center">
+        <Education/>
       </section>
       <section className="h-screen flex items-center justify-center">
         <Projects />

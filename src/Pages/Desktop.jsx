@@ -5,12 +5,13 @@ import Experience from "../Components/Experience";
 import Projects from "../Components/Projects";
 import Skills from "../Components/Skills";
 import Programming from "../Components/Programming";
+import Education from "../Components/Education";
 
 const Desktop = () => {
   return (
     <div className="flex flex-col md:flex-row h-screen md:h-auto">
       {/* Left Side (Hero Section) */}
-      <div className="w-full md:w-1/2 h-screen bg-gray-900 text-white flex items-center justify-center md:fixed md:left-0">
+      <div className="w-full md:w-1/2 h-screen text-white flex items-center justify-center md:fixed md:left-0">
         <Hero />
       </div>
 
@@ -21,6 +22,9 @@ const Desktop = () => {
         </section>
         <section id="experience">
           <Experience />
+        </section>
+        <section id="education">
+          <Education/>
         </section>
         <section id="projects">
           <Projects />

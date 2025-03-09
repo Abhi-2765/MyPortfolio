@@ -6,7 +6,7 @@ const Projects = () => {
     <div className="max-w-3xl p-6 md:p-8 text-white rounded-lg shadow-lg relative">
       {/* Sticky Section Title with proper height & padding */}
       <div className="sticky top-0 z-10 bg-[rgb(6,19,37)] shadow-lg">
-        <h2 className="font-poppins font-bold text-2xl text-white border-b border-gray-600 py-2 w-full">
+        <h2 className="font-poppins font-bold text-2xl text-[#64ffda] border-b border-gray-600 py-2 w-full">
           Projects
         </h2>
       </div>
