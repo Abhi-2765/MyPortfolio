@@ -9,22 +9,34 @@ import Programming from "../Components/Programming";
 const Desktop = () => {
   return (
     <div className="flex flex-col md:flex-row h-screen md:h-auto">
-      
-        <div className="w-full md:w-1/2 h-screen md:h-auto bg-gray-900 text-white flex items-center justify-center md:fixed md:left-0">
-            <Hero />
-        </div>
-
-      <div className="w-full md:w-1/2 h-screen overflow-y-auto md:overflow-y-scroll md:ml-[50%] p-6 space-y-10 scroll-smooth">
-            <About />
-            <Experience />
-            <Projects />
-            <Programming />
-            <Skills />
-            <Contact />
+      {/* Left Side (Hero Section) */}
+      <div className="w-full md:w-1/2 h-screen bg-gray-900 text-white flex items-center justify-center md:fixed md:left-0">
+        <Hero />
       </div>
 
+      {/* Right Side (Scrollable Sections) */}
+      <div className="w-full md:w-1/2 h-screen overflow-y-auto md:ml-[50%] px-6 pb-6 space-y-10">
+        <section id="about">
+          <About />
+        </section>
+        <section id="experience">
+          <Experience />
+        </section>
+        <section id="projects">
+          <Projects />
+        </section>
+        <section id="programming">
+          <Programming />
+        </section>
+        <section id="skills">
+          <Skills />
+        </section>
+        <section id="contact">
+          <Contact />
+        </section>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Desktop
+export default Desktop;

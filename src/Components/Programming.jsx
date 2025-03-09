@@ -1,25 +1,15 @@
-import { motion } from "framer-motion";
-
 const Programming = () => {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6, ease: "easeOut" }}
-      className="p-6 md:p-10 rounded-lg text-gray-300 max-w-3xl mx-auto text-lg leading-relaxed bg-[#1a1a1a] shadow-lg"
-    >
-      {/* Section Title */}
-      <motion.h2
-        initial={{ opacity: 0, x: -10 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.4, ease: "easeOut", delay: 0.1 }}
-        className="font-poppins font-bold text-2xl text-white mb-4 border-b border-gray-600 pb-2"
-      >
-        Programming Profiles
-      </motion.h2>
+    <div className="p-6 md:p-10 rounded-lg text-gray-300 max-w-3xl mx-auto text-lg leading-relaxed shadow-lg relative">
+      {/* Sticky Section Title */}
+      <div className="sticky top-0 z-10 bg-[rgb(6,19,37)] shadow-lg">
+        <h2 className="font-poppins font-bold text-2xl text-white border-b border-gray-600 py-2 w-full">
+          Programming Profiles
+        </h2>
+      </div>
 
       {/* Table */}
-      <div className="overflow-x-auto">
+      <div className="mt-4 overflow-x-auto">
         <table className="w-full border-collapse border border-gray-700 text-gray-300 font-poppins text-center">
           <thead>
             <tr className="bg-[#0a192f] text-white text-sm md:text-base">
@@ -57,13 +47,8 @@ const Programming = () => {
         </table>
       </div>
 
-      {/* Underline hover effect */}
-      <motion.div
-        whileHover={{ width: "100%" }}
-        transition={{ duration: 0.5 }}
-        className="h-1 bg-[#64ffda] mt-6 w-16"
-      ></motion.div>
-    </motion.div>
+      <div className="h-1 bg-[#64ffda] mt-6 w-16 mx-auto"></div>
+    </div>
   );
 };
 

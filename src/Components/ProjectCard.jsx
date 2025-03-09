@@ -7,7 +7,7 @@ const ProjectCard = ({ title, description, tools, imageUrl, projectLink, repoLin
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
-      className="flex flex-col md:flex-row items-center md:items-start bg-[#1a1a1a] text-white rounded-lg shadow-lg border border-gray-700 transition-all duration-300 hover:bg-gray-800 p-4 group"
+      className="flex flex-col md:flex-row items-center md:items-start text-white rounded-lg shadow-lg transition-all duration-300 hover:bg-gray-800 p-2 group"
     >
       {/* Left Side - Clickable Image */}
       <a href={projectLink} target="_blank" rel="noopener noreferrer" className="w-full md:w-1/3 hover:cursor-pointer">

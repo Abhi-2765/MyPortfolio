@@ -23,7 +23,7 @@ const Contact = () => {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className="p-6 md:p-10 rounded-lg text-gray-300 max-w-3xl w-full mx-auto text-lg leading-relaxed bg-[#1a1a1a] shadow-lg"
+      className="p-6 md:p-10 rounded-lg text-gray-300 max-w-3xl w-full mx-auto text-lg leading-relaxed shadow-lg"
     >
       {/* Section Title */}
       <motion.h2
