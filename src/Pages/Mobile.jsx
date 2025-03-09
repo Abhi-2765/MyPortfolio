@@ -10,28 +10,28 @@ import Education from "../Components/Education";
 const Mobile = () => {
   return (
     <div className="flex flex-col h-screen overflow-x-hidden overflow-y-scroll scroll-smooth snap-y snap-mandatory">
-      <section className="h-screen flex items-center justify-center">
+      <section className="flex items-center justify-center">
         <Hero />
       </section>
-      <section className="h-screen flex items-center justify-center">
+      <section className="flex items-center justify-center">
         <About />
       </section>
-      <section className="h-screen flex items-center justify-center">
+      <section className="flex items-center justify-center">
         <Experience />
       </section>
-      <section className="h-screen flex items-center justify-center">
+      <section className="flex items-center justify-center">
         <Education/>
       </section>
-      <section className="h-screen flex items-center justify-center">
+      <section className="flex items-center justify-center">
         <Projects />
       </section>
-      <section className="h-screen flex items-center justify-center">
+      <section className="flex items-center justify-center">
         <Programming />
       </section>
-      <section className="h-screen flex items-center justify-center">
+      <section className="flex items-center justify-center">
         <Skills />
       </section>
-      <section className="h-screen flex items-center justify-center">
+      <section className="flex items-center justify-center">
         <Contact />
       </section>
       <section className="h-75">

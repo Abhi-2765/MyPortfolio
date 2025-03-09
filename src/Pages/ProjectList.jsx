@@ -3,11 +3,16 @@ import ProjectCard from "../Components/ProjectCard";
 
 const ProjectList = () => {
   return (
-    <div className="flex flex-col items-center p-6">
-      <h1 className="text-3xl font-bold mb-6">My Projects</h1>
-      <div className="flex flex-wrap justify-center gap-6 w-full">
+    <div className="flex flex-col items-center justify-center min-h-screen w-full p-6">
+      {/* Responsive Heading */}
+      <p className="text-3xl font-bold mb-6 pb-4 font-poppins text-teal-500 border-b-2 w-full text-center">
+        My Projects
+      </p>
+
+      {/* Flexbox Layout for Responsiveness */}
+      <div className="flex flex-wrap justify-center gap-6 w-full max-w-7xl px-6">
         {ProjectDetails.map((project, index) => (
-          <div key={index} className="max-w-3xl w-full">
+          <div key={index} className="w-full md:w-1/2 flex justify-center">
             <ProjectCard
               title={project.title}
               description={project.description}
