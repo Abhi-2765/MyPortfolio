@@ -1,11 +1,45 @@
 export const ProjectDetails = [
 	{
 		title: "XpenseTrack",
-		description:
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus et nunc fermentum aliquet. Nullam nec purus et nunc fermentum aliquet.",
-		tools: ["React", "mongoDB", "firebase"],
+		description: [
+			"Developed a dynamic expense-tracking web app that allows users to log and categorize daily expenses with real-time data storage.",
+			"Integrated an interactive calendar feature for easy expense logging, enabling users to input data via pop-ups and receive monthly summaries.",
+			"Implemented live expense tracking with current balance updates and month-to-date summaries, improving financial insights and budget management.",
+		],
+		tools: [
+			"React",
+			"TailwindCSS",
+			"NodeJS",
+			"Express",
+			"MongoDB",
+			"Firebase",
+			"Postman",
+			"Render",
+		],
 		imageUrl: "https://i.ibb.co/7zvZjGv/xpensetrack.png",
-		projectLink: "https://www.google.com/",
-		repoLink: "#",
+		projectLink: "https://xpensetrack.onrender.com/",
+		repoLink: "https://github.com/Abhi-2765/XpenseTrack",
 	},
+	// {
+	// 	title: "AccessAI",
+	// 	description: [
+	// 		"Developed an AI-powered tool that automatically detects and remediates accessibility issues like missing alt text, unclear form labels, and poor color contrast on websites.",
+	// 		"Utilized web scraping (BeautifulSoup) and HTML/CSS parsing to analyze website content for accessibility improvements.",
+	// 		"Integrated Gemini’s multimodal large language model to suggest fixes and generate improved HTML and CSS code for better accessibility.",
+	// 		"Built a visual validation system to compare original and modified website screenshots, ensuring no unintended design changes.",
+	// 	],
+	// 	tools: [
+	// 		"HTML",
+	// 		"CSS",
+	// 		"Bootstrap",
+	// 		"Python",
+	// 		"Flask",
+	// 		"BeautifulSoup",
+	// 		"GeminiAPI",
+	// 		"Render",
+	// 	],
+	// 	imageUrl: "https://i.ibb.co/7zvZjGv/xpensetrack.png",
+	// 	projectLink: "https://accessai-r6or.onrender.com/",
+	// 	repoLink: "https://github.com/RushiVivek/AccessAI-AG33",
+	// },
 ];

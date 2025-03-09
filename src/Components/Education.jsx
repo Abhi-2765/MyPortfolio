@@ -1,6 +1,6 @@
 const Education = () => {
     return (
-      <div className="max-w-3xl p-6 md:p-8 text-white rounded-lg shadow-lg relative">
+      <div className="max-w-3xl p-6 md:p-8 text-white rounded-lg shadow-lg relative mb-6">
         {/* Sticky Section Title */}
         <div className="sticky top-0 z-10 bg-[rgb(6,19,37)] shadow-lg">
           <h2 className="font-poppins font-bold text-2xl text-[#64ffda] border-b border-gray-600 py-2 w-full">

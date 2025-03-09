@@ -13,8 +13,8 @@ const Projects = () => {
 
       {/* Content section with enough padding to prevent jumpiness */}
       <div className="mt-4 flex flex-col gap-6">
-        {/* Projects List */}
-        {ProjectDetails.map((project, index) => (
+        {/* Projects List - Display only first 2 projects */}
+        {ProjectDetails.slice(0, 2).map((project, index) => (
           <ProjectCard
             key={index}
             title={project.title}

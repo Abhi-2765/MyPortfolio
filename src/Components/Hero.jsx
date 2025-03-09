@@ -32,10 +32,10 @@ const Hero = () => {
         <a href="https://www.linkedin.com/in/saiabhiramavarmabuddaraju/" target="_blank" rel="noopener noreferrer">
           <Linkedin/>
         </a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://x.com/Abhiram1326848?t=2tebbkH1FS9KlIMhoxDAsw&s=09" target="_blank" rel="noopener noreferrer">
           <Twitter/>
         </a>
-        <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://discord.com/users/abhi_2765" target="_blank" rel="noopener noreferrer">
           <Discord/>
         </a>
       </div>
