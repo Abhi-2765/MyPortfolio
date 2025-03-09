@@ -12,7 +12,7 @@ const Desktop = () => {
     <div className="flex flex-col md:flex-row h-screen md:h-auto">
       {/* Left Side (Hero Section) */}
       <div className="w-full md:w-1/2 h-screen text-white flex items-center justify-center md:fixed md:left-0">
-        <Hero />
+        <Hero mobile={false} />
       </div>
 
       {/* Right Side (Scrollable Sections) */}

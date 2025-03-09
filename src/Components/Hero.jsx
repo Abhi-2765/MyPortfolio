@@ -3,9 +3,9 @@ import Github from "../assets/Github";
 import Linkedin from "../assets/Linkedin";
 import Twitter from "../assets/Twitter";
 
-const Hero = () => {
+const Hero = ({ mobile }) => {
   return (
-    <div className="pl-5 h-screen flex flex-col justify-center items-start text-left space-y-4">
+    <div className="pl-5 h-screen flex flex-col justify-center items-start text-left space-y-4 relative">
       
       <div className="flex flex-col space-y-0.5">
         <p className="font-spartan text-lg pl-1 text-[#64ffda]">Hi, my name is</p>
@@ -27,18 +27,26 @@ const Hero = () => {
       {/* Social Links */}
       <div className="flex space-x-6 mt-6">
         <a href="https://github.com/Abhi-2765" target="_blank" rel="noopener noreferrer">
-          <Github/>
+          <Github />
         </a>
         <a href="https://www.linkedin.com/in/saiabhiramavarmabuddaraju/" target="_blank" rel="noopener noreferrer">
-          <Linkedin/>
+          <Linkedin />
         </a>
         <a href="https://x.com/Abhiram1326848?t=2tebbkH1FS9KlIMhoxDAsw&s=09" target="_blank" rel="noopener noreferrer">
-          <Twitter/>
+          <Twitter />
         </a>
         <a href="https://discord.com/users/abhi_2765" target="_blank" rel="noopener noreferrer">
-          <Discord/>
+          <Discord />
         </a>
       </div>
+
+      {/* Blinking Scroll Down Animation (Only on Mobile) */}
+      {mobile && (
+        <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-white text-sm 
+                        animate-pulse opacity-80">
+          Scroll Down
+        </div>
+      )}
     </div>
   );
 };

@@ -17,7 +17,7 @@ const Contact = () => {
   return (
     <div className="p-6 md:p-10 rounded-lg text-gray-300 max-w-3xl w-full mx-auto text-lg leading-relaxed shadow-lg">
       {/* Section Title */}
-      <h2 className="font-poppins font-bold text-2xl text-[#64ffda] mb-4 border-b border-gray-600 pb-2 text-left">
+      <h2 className="font-poppins font-bold text-2xl text-[#64ffda] mb-4 border-b border-gray-600 pb-2 text-left sticky">
         Contact Me
       </h2>
 

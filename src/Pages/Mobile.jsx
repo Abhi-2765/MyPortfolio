@@ -10,8 +10,8 @@ import Education from "../Components/Education";
 const Mobile = () => {
   return (
     <div className="flex flex-col h-screen overflow-x-hidden overflow-y-scroll scroll-smooth snap-y snap-mandatory">
-      <section className="flex items-center justify-center">
-        <Hero />
+      <section className="h-screen flex items-center justify-center">
+        <Hero mobile={true}/>
       </section>
       <section className="flex items-center justify-center">
         <About />

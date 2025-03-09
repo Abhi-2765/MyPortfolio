@@ -2,8 +2,8 @@ export const experienceDetails = [
 	{
 		role: "SWE STEP Intern",
 		company: "Google",
-		start: "May, 2021",
-		end: "July, 2021",
+		start: "May, 2025",
+		end: "July, 2025",
 		description: [
 			"Developed a web application for a client using ReactJS, NodeJS, and MongoDB.",
 			"Implemented CRUD operations for the client's products and orders.",
