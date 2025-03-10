@@ -13,6 +13,7 @@ import Tailwind from "../assets/Tailwind";
 import Jupyter from "../assets/Jupyter";
 import Colab from "../assets/Colab";
 import Git from "../assets/Git";
+import Express from "../assets/Express";
 
 const Skills = () => {
   return (
@@ -50,6 +51,7 @@ const Skills = () => {
             <Tailwind />
             <Bootstrap />
             <ReactIcon />
+            <Express/>
             <NodeJS />
             <MongoDB />
           </div>

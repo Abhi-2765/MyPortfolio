@@ -42,7 +42,7 @@ const Hero = ({ mobile }) => {
 
       {/* Blinking Scroll Down Animation (Only on Mobile) */}
       {mobile && (
-        <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-white text-sm 
+        <div className="absolute bottom-40 left-1/2 transform -translate-x-1/2 text-white text-sm 
                         animate-pulse opacity-80">
           Scroll Down
         </div>
