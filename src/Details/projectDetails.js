@@ -16,7 +16,8 @@ export const ProjectDetails = [
 			"Postman",
 			"Render",
 		],
-		imageUrl: "https://raw.githubusercontent.com/Abhi-2765/MyPortfolio/refs/heads/main/public/xpenseTrack.png",
+		imageUrl:
+			"https://raw.githubusercontent.com/Abhi-2765/MyPortfolio/refs/heads/main/public/xpenseTrack.png",
 		projectLink: "https://xpensetrack.onrender.com/",
 		repoLink: "https://github.com/Abhi-2765/XpenseTrack",
 	},
@@ -38,8 +39,22 @@ export const ProjectDetails = [
 			"GeminiAPI",
 			"Render",
 		],
-		imageUrl: "https://raw.githubusercontent.com/Abhi-2765/MyPortfolio/refs/heads/main/public/accessAI.png",
+		imageUrl:
+			"https://raw.githubusercontent.com/Abhi-2765/MyPortfolio/refs/heads/main/public/accessAI.png",
 		projectLink: "https://accessai-r6or.onrender.com/",
 		repoLink: "https://github.com/RushiVivek/AccessAI-AG33",
+	},
+	{
+		title: "Portfolio Website",
+		description: [
+			"Designed and developed a responsive portfolio website to showcase projects, skills, and experience.",
+			"Utilized React and TailwindCSS to create a clean, modern design with smooth animations and transitions.",
+			"Implemented a dynamic project details section to display project descriptions, tools, and links.",
+			"Deployed the website on Vercel for fast loading times and easy updates.",
+		],
+		tools: ["React", "TailwindCSS", "Github", "Vercell"],
+		imageUrl: "/portfolio.png",
+		projectLink: "https://saiabhiramavarmabuddaraju.vercel.app/",
+		repoLink: "https://github.com/Abhi-2765/MyPortfolio",
 	},
 ];
