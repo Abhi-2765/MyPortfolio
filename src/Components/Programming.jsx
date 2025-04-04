@@ -1,4 +1,20 @@
+import { useState } from "react";
+import Codeforces from "../Details/Codeforces";
+import Codechef from "../Details/Codechef";
+import LeetCode from "../Details/LeetCode";
+
 const Programming = () => {
+
+  const [cfRating, setCfRating] = useState(null);
+  const [cfRank, setCfRank] = useState("specialist");
+  const [cfProblems, setCfProblems] = useState(558);
+
+  const [ccRating, setCCRating] = useState(0);
+  const [ccRank, setCCRank] = useState("3 ⭐");
+  const [ccProblems, setCCProblems] = useState(0);
+
+  const [lcProblems, setLCProblems] = useState(0);
+
   return (
     <div className="p-6 md:p-10 rounded-lg text-gray-300 max-w-3xl mx-auto text-lg leading-relaxed shadow-lg relative">
       {/* Sticky Section Title */}
@@ -7,6 +23,10 @@ const Programming = () => {
           Programming Profiles
         </h2>
       </div>
+
+      <Codeforces setCfRank={setCfRank} setCfRating={setCfRating} setCfProblems={setCfProblems}/>
+      <Codechef setCCRank={setCCRank} setCCRating={setCCRating} setCCProblems={setCCProblems}/>
+      <LeetCode setLCProblems={setLCProblems}/>
 
       {/* Table */}
       <div className="mt-4 overflow-x-auto">
@@ -21,11 +41,9 @@ const Programming = () => {
           <tbody className="text-center">
 
             {[
-              { name: "Codeforces", rating: "Specialist (1448)", solved: "525", link: "https://codeforces.com/profile/AbhiRam27" },
-              { name: "CodeChef", rating: "3 Star (1742)", solved: "55", link: "https://www.codechef.com/users/abhi_2765" },
-              { name: "LeetCode", rating: "1540", solved: "107", link: "https://leetcode.com/u/Abhi-2790/" },
-              { name: "AtCoder", rating: "Red (422)", solved: "45", link: "https://atcoder.jp/users/Abhi_2706" },
-              { name: "Hackerrank", rating: "5 Star (Problem Solving)", solved: "73", link: "https://www.hackerrank.com/profile/b_abhi2790" }
+              { name: "Codeforces", rating:  `${cfRank[0].toUpperCase() + cfRank.slice(1)} (${cfRating})`, solved: `${cfProblems}`, link: "https://codeforces.com/profile/AbhiRam27" },
+              { name: "CodeChef", rating: `${ccRank[0] + " " + ccRank[1]} (${ccRating})`, solved: `${ccProblems}`, link: "https://www.codechef.com/users/abhi_2765" },
+              { name: "LeetCode", rating: "1540", solved: `${lcProblems}`, link: "https://leetcode.com/u/Abhi-2790/" },
             ].map((platform, index) => (
               <tr key={index} className="hover:bg-[#112240] transition duration-300">
                 <td className="border border-gray-700 p-3">

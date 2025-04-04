@@ -15,7 +15,7 @@ const Hero = ({ mobile }) => {
 
       <div>
         <a 
-          href="https://drive.google.com/file/d/1hHA5M_peAuccWuwrbPtlh2nS9YNFGdEC/view" 
+          href="https://drive.google.com/file/d/1y_O9dFJAtPFO5zbH__u-1RnDi_YtPZxM/view?usp=sharing" 
           target="_blank" 
           rel="noopener noreferrer"
           className="mt-4 inline-block px-6 py-3 border-2 border-[#64ffda] text-[#64ffda] font-medium text-sm leading-tight rounded hover:bg-[#64ffda] hover:bg-opacity-10 hover:text-black focus:outline-none focus:ring-2 focus:ring-[#64ffda] transition duration-300 ease-in-out"
